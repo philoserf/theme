@@ -12,7 +12,6 @@
   }
 
   a {
-
     &:hover,
     &:focus {
       color: $link-color;
@@ -43,7 +42,9 @@
       background-color: $bg-color;
       border-top: solid 2px $alt-bg-color;
       border-bottom: solid 2px $alt-bg-color;
-      transition: opacity 0.25s, max-height 0.15s linear;
+      transition:
+        opacity 0.25s,
+        max-height 0.15s linear;
     }
 
     .navigation-item {
@@ -105,17 +106,17 @@
       left: -99999px;
       opacity: 0;
 
-      &:checked+label>i {
+      &:checked + label > i {
         color: $alt-bg-color;
       }
 
-      &:checked+label+ul {
+      &:checked + label + ul {
         visibility: visible;
         opacity: 1;
         max-height: 100rem;
       }
 
-      &:focus-visible+label {
+      &:focus-visible + label {
         outline-style: auto;
       }
     }
@@ -132,7 +133,6 @@
     }
 
     i {
-
       &:hover,
       &:focus {
         color: $alt-fg-color;

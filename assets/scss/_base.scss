@@ -23,10 +23,6 @@ body {
   }
 }
 
-iframe[src*=disqus] {
-  color-scheme: light;
-}
-
 a {
   font-weight: 500;
   color: $link-color;
@@ -139,7 +135,6 @@ strong {
 }
 
 .highlight {
-
   div,
   pre {
     margin: 2rem 0 2rem;

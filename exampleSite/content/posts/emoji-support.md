@@ -1,19 +1,19 @@
-+++
-authors = ["Lone Coder"]
-title = "Emoji Support"
-date = "2023-07-07"
-description = "Guide to emoji usage in Hugo"
-tags = [
-    "hugo",
-    "markdown",
-    "emoji",
-]
-categories = [
-    "syntax",
-    "theme demo",
-]
-series = ["Theme Demo"]
-+++
+---
+authors:
+  - Lone Coder
+categories:
+  - syntax
+  - theme demo
+date: "2023-07-07"
+description: Guide to emoji usage in Hugo
+series:
+  - Theme Demo
+tags:
+  - hugo
+  - markdown
+  - emoji
+title: Emoji Support
+---
 
 Emoji can be enabled in a Hugo project in a number of ways.
 
@@ -42,9 +42,9 @@ font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol,
 
 <style>
 .emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
+ font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+ font-size: 2rem;
+ vertical-align: middle;
 }
 @media screen and (max-width:650px) {
   .nowrap {
