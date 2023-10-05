@@ -1,8 +1,8 @@
-name = "Coder"
+name = "Theme"
 license = "MIT"
-licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
+licenselink = "https://github.com/philoserf/theme/blob/master/LICENSE"
 description = "A simple and clean blog theme for Hugo"
-homepage = "https://github.com/luizdepra/hugo-coder/"
+homepage = "https://github.com/philoserf/theme/"
 tags = [
   "blog",
   "minimal",
