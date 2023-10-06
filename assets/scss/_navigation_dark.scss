@@ -1,13 +1,11 @@
 @mixin navigation_dark {
   .navigation {
-
     a,
     span {
       color: $fg-color-dark;
     }
 
     a {
-
       &:hover,
       &:focus {
         color: $link-color-dark;
@@ -30,7 +28,7 @@
 
     #menu-toggle {
       @media only screen and (max-width: 768px) {
-        &:checked+label>i {
+        &:checked + label > i {
           color: $alt-bg-color-dark;
         }
       }
@@ -47,7 +45,6 @@
 
     .menu-button {
       i {
-
         &:hover,
         &:focus {
           color: $alt-fg-color-dark;

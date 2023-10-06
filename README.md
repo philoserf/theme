@@ -17,4 +17,5 @@ module:
 3. See the result at `http://localhost:1313/`.
 
 ## License
+
 Licensed under the [MIT license](https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md). Sponser the original author on [Buy Me a Coffee](https://www.buymeacoffee.com/luizdepra).

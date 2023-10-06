@@ -1,20 +1,20 @@
-+++
-authors = ["Lone Coder"]
-date = "2023-07-08"
-title = "Mermaid JS support"
-description = "The post demonstrates Mermaid JS support"
-tags = [
-    "hugo",
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "theme demo",
-    "syntax",
-]
-series = ["Theme Demo"]
-+++
+---
+authors:
+  - Lone Coder
+categories:
+  - theme demo
+  - syntax
+date: "2023-07-08"
+description: The post demonstrates Mermaid JS support
+series:
+  - Theme Demo
+tags:
+  - hugo
+  - markdown
+  - css
+  - html
+title: Mermaid JS support
+---
 
 If you want to use [Mermaid-JS](https://mermaid-js.github.io/mermaid/#/) on your website.
 Provide `mermaid` as [Shortcode](https://gohugo.io/content-management/shortcodes/#readout) in your markdown file.

@@ -1,21 +1,21 @@
-+++
-authors = ["Lone Coder"]
-title = "More Rich Content"
-date = "2023-07-11"
-description = "A brief description about Hugo Coder's Custom Shortcodes"
-tags = [
-    "hugo",
-    "markdown",
-    "css",
-    "html",
-    "shortcodes",
-]
-categories = [
-    "theme demo",
-    "syntax",
-]
-series = ["Theme Demo"]
-+++
+---
+authors:
+  - Lone Coder
+categories:
+  - theme demo
+  - syntax
+date: "2023-07-11"
+description: A brief description about Hugo Coder's Custom Shortcodes
+series:
+  - Theme Demo
+tags:
+  - hugo
+  - markdown
+  - css
+  - html
+  - shortcodes
+title: More Rich Content
+---
 
 Hugo Coder provides some Custom Shortcodes.
 

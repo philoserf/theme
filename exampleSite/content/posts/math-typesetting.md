@@ -1,21 +1,21 @@
-+++
-authors = ["Lone Coder"]
-title = "Math Typesetting"
-date = "2023-07-10"
-description = "A brief guide to setup KaTeX"
-math = true
-tags = [
-    "hugo",
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "theme demo",
-    "syntax",
-]
-series = ["Theme Demo"]
-+++
+---
+authors:
+  - Lone Coder
+categories:
+  - theme demo
+  - syntax
+date: "2023-07-10"
+description: A brief guide to setup KaTeX
+math: true
+series:
+  - Theme Demo
+tags:
+  - hugo
+  - markdown
+  - css
+  - html
+title: Math Typesetting
+---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
 
@@ -23,9 +23,9 @@ Mathematical notation in a Hugo project can be enabled by using third party Java
 
 In this example we will be using [KaTeX](https://katex.org/)
 
--   Create a partial under `/layouts/partials/math.html`
--   Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
--   Include the partial in your templates like so:
+- Create a partial under `/layouts/partials/math.html`
+- Within this partial reference the [Auto-render Extension](https://katex.org/docs/autorender.html) or host these scripts locally.
+- Include the partial in your templates like so:
 
 ```bash
 {{ if or .Params.math .Site.Params.math }}
@@ -33,8 +33,8 @@ In this example we will be using [KaTeX](https://katex.org/)
 {{ end }}
 ```
 
--   To enable KaTex globally set the parameter `math` to `true` in a project's configuration
--   To enable KaTex on a per page basis include the parameter `math: true` in content files
+- To enable KaTex globally set the parameter `math` to `true` in a project's configuration
+- To enable KaTex on a per page basis include the parameter `math: true` in content files
 
 **Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
 
