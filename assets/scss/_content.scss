@@ -3,6 +3,10 @@
   display: flex;
   margin-top: 1.6rem;
   margin-bottom: 3.2rem;
+  @media only screen and (max-width: 768px) {
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+  }
 
   header {
     margin-top: 6.4rem;
@@ -49,6 +53,8 @@
     p {
       text-align: justify;
       text-justify: auto;
+      -ms-hyphens: auto;
+      -webkit-hyphens: auto;
       hyphens: auto;
     }
   }
@@ -79,7 +85,7 @@
           padding: 0.3rem 0.6rem;
           background-color: $alt-bg-color;
           border-radius: 0.6rem;
-          line-height: 1.4em;
+          line-height: 1.5em;
 
           a {
             color: $fg-color;
@@ -112,7 +118,7 @@
   border-radius: 50%;
 
   @media only screen and (max-width: 768px) {
-    width: 10rem;
+    width: 17rem;
   }
 }
 
