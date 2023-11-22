@@ -1,6 +1,6 @@
 # Theme
 
-A personal-use fork of the [Hugo](https://gohugo.io/) Coder theme by [Luiz de Prá](https://github.com/luizdepra).
+A personal-use fork of the [Hugo](https://gohugo.io/) [Coder theme](https://github.com/luizdepra/hugo-coder) by [Luiz de Prá](https://github.com/luizdepra).
 
 ## Usage
 
