@@ -3,15 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/philoserf/theme/blob/master/LICENSE"
 description = "A simple and clean blog theme for Hugo"
 homepage = "https://github.com/philoserf/theme/"
-tags = [
-  "personal"
-]
-features = [
-  "favicon",
-  "pagination",
-  "single-column",
-  "syntax-highlighting"
-]
+tags = ["personal"]
+features = ["favicon", "pagination", "single-column", "syntax-highlighting"]
 min_version = "0.110.0"
 
 [author]
